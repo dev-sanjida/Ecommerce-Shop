@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalles — Shop</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+
+<div class="page-hero"><h1>Shop</h1><p>Home / Shop</p></div>
+
+<section>
+  <div class="container">
+    <div class="shop-tools">
+      <div class="filters">
+        <button class="on" data-cat="all">All</button>
+        <button data-cat="laptop">Laptop</button>
+        <button data-cat="watch">Watch</button>
+        <button data-cat="mouse">Mouse</button>
+        <button data-cat="keyboard">Keyboard</button>
+      </div>
+      <select id="sort" aria-label="Sort products">
+        <option value="default">Default sorting</option>
+        <option value="low">Price: low to high</option>
+        <option value="high">Price: high to low</option>
+      </select>
+    </div>
+    <div class="grid" id="shop-grid"></div>
+  </div>
+</section>
+
+<footer id="site-footer" class="site-footer"></footer>
+<script src="js/main.js"></script>
+</body>
+</html>

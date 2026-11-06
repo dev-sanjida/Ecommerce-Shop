@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalles — Home</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+
+<section class="hero">
+  <div class="container">
+    <div>
+      <small>Summer <span id="y"></span></small>
+      <h1>New Arrival<br>Collection</h1>
+      <a href="shop.html" class="btn">Explore Now</a>
+    </div>
+    <div class="hero-art"><img src="images/laptop.svg" alt="Aero Slim Laptop"></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-title"><h2>Shop by Category</h2><p>Pick what you love</p></div>
+    <div class="tiles">
+      <a class="tile" href="shop.html"><img src="images/laptop.svg" alt="Laptop"><span>Laptops</span></a>
+      <a class="tile" href="shop.html"><img src="images/watch.svg" alt="Watch"><span>Watches</span></a>
+      <a class="tile" href="shop.html"><img src="images/mouse.svg" alt="Mouse"><span>Mouse</span></a>
+      <a class="tile" href="shop.html"><img src="images/keyboard.svg" alt="Keyboard"><span>Keyboards</span></a>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div class="section-title"><h2>Trending Products</h2><p>Our most-loved picks this season</p></div>
+    <div class="grid" id="trending"></div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <div><div class="ico">&#128666;</div><h4>Free Shipping</h4><p>On orders over $100</p></div>
+    <div><div class="ico">&#8635;</div><h4>Easy Returns</h4><p>30-day return policy</p></div>
+    <div><div class="ico">&#128274;</div><h4>Secure Payment</h4><p>Safe and encrypted</p></div>
+    <div><div class="ico">&#9742;</div><h4>24/7 Support</h4><p>We are here to help</p></div>
+  </div>
+</section>
+
+<footer id="site-footer" class="site-footer"></footer>
+<script src="js/main.js"></script>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
